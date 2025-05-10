@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{78BED28E-8698-443C-94A3-809D8F69A451}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Farm_Management_System</RootNamespace>
+    <AssemblyName>Farm_Management_System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Change_password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change_password.Designer.cs">
+      <DependentUpon>Change_password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChickenClass.cs" />
+    <Compile Include="CowClass.cs" />
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EggClass.cs" />
+    <Compile Include="EggSaleClass.cs" />
+    <Compile Include="ExpandClass.cs" />
+    <Compile Include="Farmer Cows.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farmer Cows.Designer.cs">
+      <DependentUpon>Farmer Cows.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Farmer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farmer.Designer.cs">
+      <DependentUpon>Farmer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FarmerClass.cs" />
+    <Compile Include="Farmer_Chicken.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farmer_Chicken.Designer.cs">
+      <DependentUpon>Farmer_Chicken.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Farmer_Egg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farmer_Egg.Designer.cs">
+      <DependentUpon>Farmer_Egg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expend.Designer.cs">
+      <DependentUpon>Expend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HealthReportClass.cs" />
+    <Compile Include="Incom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Incom.Designer.cs">
+      <DependentUpon>Incom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Farmer_Milk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farmer_Milk.Designer.cs">
+      <DependentUpon>Farmer_Milk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IncomeClass.cs" />
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Health_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Health_Report.Designer.cs">
+      <DependentUpon>Health_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mail.Designer.cs">
+      <DependentUpon>Mail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MilkClass.cs" />
+    <Compile Include="MilkSaleClass.cs" />
+    <Compile Include="Notification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notification.Designer.cs">
+      <DependentUpon>Notification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order.Designer.cs">
+      <DependentUpon>Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderClass.cs" />
+    <Compile Include="OrderList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderList.Designer.cs">
+      <DependentUpon>OrderList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Owner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Owner.Designer.cs">
+      <DependentUpon>Owner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Owner_Emp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Owner_Emp.Designer.cs">
+      <DependentUpon>Owner_Emp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Owner_Emp2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Owner_Emp2.Designer.cs">
+      <DependentUpon>Owner_Emp2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment.Designer.cs">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Price.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Price.Designer.cs">
+      <DependentUpon>Price.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile.Designer.cs">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Salesman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salesman.Designer.cs">
+      <DependentUpon>Salesman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesmanClass.cs" />
+    <Compile Include="Salesman_egg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salesman_egg.Designer.cs">
+      <DependentUpon>Salesman_egg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salesman_milk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salesman_milk.Designer.cs">
+      <DependentUpon>Salesman_milk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignUP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUP.Designer.cs">
+      <DependentUpon>SignUP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignUpClass.cs" />
+    <Compile Include="SignUpList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUpList.Designer.cs">
+      <DependentUpon>SignUpList.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Change_password.resx">
+      <DependentUpon>Change_password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farmer Cows.resx">
+      <DependentUpon>Farmer Cows.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farmer.resx">
+      <DependentUpon>Farmer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farmer_Chicken.resx">
+      <DependentUpon>Farmer_Chicken.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farmer_Egg.resx">
+      <DependentUpon>Farmer_Egg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expend.resx">
+      <DependentUpon>Expend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Incom.resx">
+      <DependentUpon>Incom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farmer_Milk.resx">
+      <DependentUpon>Farmer_Milk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Health_Report.resx">
+      <DependentUpon>Health_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail.resx">
+      <DependentUpon>Mail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notification.resx">
+      <DependentUpon>Notification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order.resx">
+      <DependentUpon>Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderList.resx">
+      <DependentUpon>OrderList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Owner.resx">
+      <DependentUpon>Owner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Owner_Emp.resx">
+      <DependentUpon>Owner_Emp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Owner_Emp2.resx">
+      <DependentUpon>Owner_Emp2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Price.resx">
+      <DependentUpon>Price.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile.resx">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Salesman.resx">
+      <DependentUpon>Salesman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salesman_egg.resx">
+      <DependentUpon>Salesman_egg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salesman_milk.resx">
+      <DependentUpon>Salesman_milk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUP.resx">
+      <DependentUpon>SignUP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUpList.resx">
+      <DependentUpon>SignUpList.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loading.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Owner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee_new.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dashboard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Finance.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notification.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_dropdown_-_copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\344395-country-farm-wallpaper-border-ffr15031b-hd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_1rsz_dropup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-12-03 030323.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fin2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cow-logo-for-web.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emp1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-silkie-rooster-silhouette-simple-bird-5ad85866a5aac7.0584603515241278466786.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-silkie-rooster-silhouette-simple-bird-5ad85866a5aac7.05846035152412784667861.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chike.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\milk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\milk-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\egg-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProfileImage %281%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profilelogo.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
