@@ -213,3 +213,41 @@ D:\Farm_Management_System - Copy\obj\Debug\Farm_Management_System.csproj.CoreCom
 D:\Farm_Management_System - Copy\obj\Debug\Farm_Man.AA7D31EE.Up2Date
 D:\Farm_Management_System - Copy\obj\Debug\Farm_Management_System.exe
 D:\Farm_Management_System - Copy\obj\Debug\Farm_Management_System.pdb
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\bin\Debug\Farm_Management_System.exe.config
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\bin\Debug\Farm_Management_System.exe
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\bin\Debug\Farm_Management_System.pdb
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\bin\Debug\Guna.UI2.dll
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.csproj.AssemblyReference.cache
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Change_password.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Dashboard.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Farmer_Cows.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Farmer.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Farmer_Chicken.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Farmer_Egg.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Expend.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Incom.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Farmer_Milk.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Loading.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Health_Report.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Login.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Mail.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Notification.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Order.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.OrderList.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Owner.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Owner_Emp.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Owner_Emp2.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Payment.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Price.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Profile.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Properties.Resources.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Salesman.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Salesman_egg.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.Salesman_milk.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.SignUp.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.SignUpList.resources
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.csproj.GenerateResource.cache
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.csproj.CoreCompileInputs.cache
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Man.AA7D31EE.Up2Date
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.exe
+C:\Users\Tanvir\Desktop\Farm_Management_System\ACADEMIC-PROJECTS\C#\obj\Debug\Farm_Management_System.pdb

@@ -1,0 +1,158 @@
+﻿@{
+    ViewBag.Title = "Add Property";
+    Layout = null;
+}
+
+<h2>Add Property</h2>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">@TempData["Message"]</div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+@using (Html.BeginForm("AddProperty", "Property", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="form-group">
+        <label>Property Name:</label>
+        <input type="text" name="propertyName" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Room Number:</label>
+        <input type="number" name="roomNo" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Floor Number:</label>
+        <input type="number" name="floorNo" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Rent (Amount):</label>
+        <input type="number" step="0.01" name="rent" class="form-control" required />
+    </div>
+
+    <h4>Address Details</h4>
+    <div class="form-group">
+        <label>City:</label>
+        <input type="text" name="city" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Details Location:</label>
+        <input type="text" name="detailsLocation" class="form-control" required />
+    </div>
+
+    <h4>Facilities</h4>
+    <div class="form-group">
+        <label>Parking Available:</label>
+        <select name="parking" class="form-control">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Fresh Water Supply:</label>
+        <select name="freshWater" class="form-control">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Outdoor Space:</label>
+        <select name="outdoorSpace" class="form-control">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Storage Room:</label>
+        <select name="storeRoom" class="form-control">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Security Guard:</label>
+        <select name="securityGuard" class="form-control">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Internet Service:</label>
+        <select name="internetService" class="form-control">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+    </div>
+
+    <h4>Rental Terms</h4>
+    <div class="form-group">
+        <label>Rental Duration (Months):</label>
+        <input type="number" name="rentalDuration" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Security Deposit (Amount):</label>
+        <input type="number" step="0.01" name="securityDeposit" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Utilities Included:</label>
+        <input type="text" name="utilities" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Maintenance Details:</label>
+        <input type="text" name="maintenance" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Repair Policy:</label>
+        <input type="text" name="repair" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Inspection Policy:</label>
+        <input type="text" name="inspection" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Renewal Policy:</label>
+        <input type="text" name="renewal" class="form-control" required />
+    </div>
+
+    <h4>Upload Images & Video</h4>
+    <div class="form-group">
+        <label>Property Image 1:</label>
+        <input type="file" name="image1" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Property Image 2:</label>
+        <input type="file" name="image2" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Property Image 3:</label>
+        <input type="file" name="image3" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Property Video:</label>
+        <input type="file" name="video" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Property</button>
+}

@@ -1,0 +1,26 @@
+﻿<div class="container mt-4">
+    <div class="property-detail">
+        <h2>@Model.PropertyName</h2>
+        <p><strong>City:</strong> @Model.City</p>
+        <p><strong>Rent:</strong> $@Model.Rent</p>
+        <p><strong>Floor No:</strong> @Model.FloorNo</p>
+        <p><strong>Room No:</strong> @Model.RoomNo</p>
+        <p><strong>Parking:</strong> @Model.Parking</p>
+        <p><strong>Fresh Water:</strong> @Model.FreshWater</p>
+        
+
+
+        @if (!string.IsNullOrEmpty(Model.ImageBase64))
+        {
+            <img src="data:image/jpg;base64,@Model.ImageBase64" alt="Property Image 1">
+        }
+
+       
+
+        <div class="mt-3">
+            <a href="@Url.Action("Index", "Home")" class="menu-item btn btn-danger">BACK</a>
+            <a href="@Url.Action("Index", "Chat", new { tenantId = ViewBag.TenantId, propertyOwnerId = ViewBag.PropertyOwnerId, propertyId = ViewBag.PropertyId })" class="menu-item btn btn-primary">Chat</a>
+            <a href="@Url.Action("Reserve", "Property")" class="menu-item btn btn-success">Reserve</a>
+        </div>
+    </div>
+</div>

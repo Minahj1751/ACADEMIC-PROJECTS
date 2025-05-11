@@ -1,38 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Farm_Management_System - Copy\\",
+  "WorkspaceRootPath": "C:\\Users\\Tanvir\\Desktop\\Farm_Management_System\\ACADEMIC-PROJECTS\\C#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78BED28E-8698-443C-94A3-809D8F69A451}|Farm_Management_System.csproj|d:\\farm_management_system - copy\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{78BED28E-8698-443C-94A3-809D8F69A451}|Farm_Management_System.csproj|solutionrelative:owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78BED28E-8698-443C-94A3-809D8F69A451}|Farm_Management_System.csproj|d:\\farm_management_system - copy\\salesman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78BED28E-8698-443C-94A3-809D8F69A451}|Farm_Management_System.csproj|solutionrelative:salesman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78BED28E-8698-443C-94A3-809D8F69A451}|Farm_Management_System.csproj|D:\\Farm_Management_System - Copy\\salesman_milk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78BED28E-8698-443C-94A3-809D8F69A451}|Farm_Management_System.csproj|solutionrelative:salesman_milk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78BED28E-8698-443C-94A3-809D8F69A451}|Farm_Management_System.csproj|D:\\Farm_Management_System - Copy\\salesman_egg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{78BED28E-8698-443C-94A3-809D8F69A451}|Farm_Management_System.csproj|solutionrelative:salesman_egg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78BED28E-8698-443C-94A3-809D8F69A451}|Farm_Management_System.csproj|D:\\Farm_Management_System - Copy\\salesman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{78BED28E-8698-443C-94A3-809D8F69A451}|Farm_Management_System.csproj|solutionrelative:salesman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78BED28E-8698-443C-94A3-809D8F69A451}|Farm_Management_System.csproj|D:\\Farm_Management_System - Copy\\salesman_milk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{78BED28E-8698-443C-94A3-809D8F69A451}|Farm_Management_System.csproj|solutionrelative:salesman_milk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78BED28E-8698-443C-94A3-809D8F69A451}|Farm_Management_System.csproj|D:\\Farm_Management_System - Copy\\farmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{78BED28E-8698-443C-94A3-809D8F69A451}|Farm_Management_System.csproj|solutionrelative:farmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78BED28E-8698-443C-94A3-809D8F69A451}|Farm_Management_System.csproj|D:\\Farm_Management_System - Copy\\farmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78BED28E-8698-443C-94A3-809D8F69A451}|Farm_Management_System.csproj|solutionrelative:farmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78BED28E-8698-443C-94A3-809D8F69A451}|Farm_Management_System.csproj|c:\\users\\tanvir\\desktop\\farm_management_system\\academic-projects\\c#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BED28E-8698-443C-94A3-809D8F69A451}|Farm_Management_System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,91 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Owner.cs [Design]",
-              "DocumentMoniker": "D:\\Farm_Management_System - Copy\\Owner.cs",
-              "RelativeDocumentMoniker": "Owner.cs",
-              "ToolTip": "D:\\Farm_Management_System - Copy\\Owner.cs [Design]",
-              "RelativeToolTip": "Owner.cs [Design]",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tanvir\\Desktop\\Farm_Management_System\\ACADEMIC-PROJECTS\\C#\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Tanvir\\Desktop\\Farm_Management_System\\ACADEMIC-PROJECTS\\C#\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAQAAAAAMzMzMzMbwBQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T16:02:54.072Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Farmer.cs",
-              "DocumentMoniker": "D:\\Farm_Management_System - Copy\\Farmer.cs",
-              "RelativeDocumentMoniker": "Farmer.cs",
-              "ToolTip": "D:\\Farm_Management_System - Copy\\Farmer.cs",
-              "RelativeToolTip": "Farmer.cs",
-              "ViewState": "AQIAAAwAAACAZmZmZmYkwDYAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2025-02-21T16:00:46.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Farmer.cs [Design]",
-              "DocumentMoniker": "D:\\Farm_Management_System - Copy\\Farmer.cs",
-              "RelativeDocumentMoniker": "Farmer.cs",
-              "ToolTip": "C:\\Users\\User\\Downloads\\update\\Farm_Management_System\\Farmer.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2025-02-21T16:00:46.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Salesman_milk.cs",
-              "DocumentMoniker": "D:\\Farm_Management_System - Copy\\Salesman_milk.cs",
-              "RelativeDocumentMoniker": "Salesman_milk.cs",
-              "ToolTip": "D:\\Farm_Management_System - Copy\\Salesman_milk.cs",
-              "RelativeToolTip": "Salesman_milk.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAawBIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2025-02-21T16:00:46.354Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Salesman_egg.cs [Design]",
-              "DocumentMoniker": "D:\\Farm_Management_System - Copy\\Salesman_egg.cs",
-              "RelativeDocumentMoniker": "Salesman_egg.cs",
-              "ToolTip": "C:\\Users\\User\\Downloads\\update\\Farm_Management_System\\Salesman_egg.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2025-02-21T16:00:46.356Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Salesman.cs",
-              "DocumentMoniker": "D:\\Farm_Management_System - Copy\\Salesman.cs",
-              "RelativeDocumentMoniker": "Salesman.cs",
-              "ToolTip": "D:\\Farm_Management_System - Copy\\Salesman.cs",
-              "RelativeToolTip": "Salesman.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T16:00:46.628Z",
+              "WhenOpened": "2025-05-10T16:51:16.576Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Salesman.cs [Design]",
-              "DocumentMoniker": "D:\\Farm_Management_System - Copy\\Salesman.cs",
-              "RelativeDocumentMoniker": "Salesman.cs",
-              "ToolTip": "C:\\Users\\User\\Downloads\\update\\Farm_Management_System\\Salesman.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2025-02-21T16:00:46.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Salesman_milk.cs [Design]",
-              "DocumentMoniker": "D:\\Farm_Management_System - Copy\\Salesman_milk.cs",
-              "RelativeDocumentMoniker": "Salesman_milk.cs",
-              "ToolTip": "C:\\Users\\User\\Downloads\\update\\Farm_Management_System\\Salesman_milk.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2025-02-21T16:00:46.857Z"
             }
           ]
         }
